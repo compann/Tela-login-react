@@ -47,12 +47,12 @@ const Login = () => {
                     {show ?(
                         <HiEye 
                             size={20}
-                            Onclick={handleClick}
+                            onClick={handleClick}
                         />
                     ) : (
                         <HiEyeOff
                         size={20}
-                        Onclick={handleClick}
+                        onClick={handleClick}
                         />
                     )}
 
